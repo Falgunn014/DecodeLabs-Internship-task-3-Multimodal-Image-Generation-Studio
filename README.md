@@ -1,50 +1,69 @@
+Multimodal Image Generation Studio
 
----
+This project was developed as part of the DecodeLabs Generative AI Internship (Week 3).
 
-# 4️⃣ Week 3 README.md
+The objective of this project is to generate images from natural language prompts using an AI image generation model. The application accepts a text prompt from the user and saves the generated image automatically.
 
-`Week-3-Multimodal-Image-Generation-Studio/README.md`
+Project Features
 
-````markdown
-# Multimodal Image Generation Studio
+- Text-to-image generation
+- Saves generated images automatically
+- Simple command-line interface
+- Organized project structure
+- API-based image generation
 
-A text-to-image generation project built using Stable Diffusion through Hugging Face API.
+Technologies Used
 
-## Features
+- Python 3.12
+- Requests
+- Hugging Face Inference API
 
-- Text to Image Generation
-- Custom Prompt Input
-- AI Generated Images
-- Local Image Saving
+Project Structure
 
-## Technologies Used
+```
+Task 3 - Multimodal Image Generation Studio
 
-- Python
-- Hugging Face API
-- Stable Diffusion XL
+app.py
+image_generator.py
+config.py
+requirements.txt
+README.md
 
-## Installation
-
-```bash
-pip install requests
+generated_images/
 ```
 
-## Run
+Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+Configuration
+
+Add your API token inside `config.py`.
+
+Run
 
 ```bash
 python app.py
 ```
 
-## Example Prompt
+Example
 
-```text
-A futuristic city at night with flying cars
+```
+Enter image prompt:
+
+Generate a realistic apple image
 ```
 
-## Output
+The generated image is saved inside the `generated_images` folder.
 
-The generated image will be saved inside:
+Learning Outcomes
 
-```text
-generated_images/
-```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
+This project helped me understand text-to-image generation, API communication, image handling, and project organization.
+
+Author
+
+Falgun Nagpure
+
+DecodeLabs Generative AI Internship – Week 3
